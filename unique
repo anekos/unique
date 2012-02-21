@@ -1,0 +1,9 @@
+#!/usr/bin/ruby
+
+t = {}
+
+while gets
+  next if t[$_]
+  print $_
+  t[$_] = true
+end
