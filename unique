@@ -3,7 +3,8 @@
 t = {}
 
 while gets
-  next if t[$_]
+  l = $_.chomp.strip
+  next if t[l]
   print $_
-  t[$_] = true
+  t[l] = true
 end
