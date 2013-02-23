@@ -7,4 +7,4 @@ while gets
   next if t[l]
   print $_
   t[l] = true
-end
+end rescue nil
